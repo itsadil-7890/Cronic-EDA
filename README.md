@@ -1,12 +1,12 @@
-# 🔍 EDA of Kidney Disease Dataset
+#  EDA of Kidney Disease Dataset
 
-## 📂 Dataset Used
+##  Dataset Used
 Raw dataset used during analysis:  
 [🔗 Kidney_disease.csv](https://github.com/itsadil-7890/Cronic-EDA/blob/main/kidney_disease.csv)
 
 ---
 
-## 🛠 Initial Setup
+##  Initial Setup
 
 - Imported required Python libraries for EDA.
 - Loaded the dataset into a Pandas DataFrame.
@@ -21,16 +21,16 @@ Raw dataset used during analysis:
 
 ---
 
-## 📊 Analysis Performed
+## Analysis Performed
 
-### 🔤 Data Cleaning
+###  Data Cleaning
 - Corrected inconsistent/mistyped values in:
   - `Diabetes_Mellitus` (e.g., `' yes'`, `'\tyes'`, `'\tno'`)
   - `Coronary_Artery_Disease` (`'\tno'`)
   - `Target_Class` (`'ckd\t'`)
 - Encoded `Target_Class` for binary classification.
 
-### 📈 Exploratory Analysis
+###  Exploratory Analysis
 - Visualized **Age Distribution**.
 - Analyzed:
   - `Hypertension`
@@ -50,7 +50,7 @@ Raw dataset used during analysis:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This EDA uncovered critical patterns in the dataset such as:
 - CKD patients tend to have **higher blood urea**, **lower hemoglobin**, and **more outliers** in clinical measures.
@@ -60,4 +60,4 @@ This EDA uncovered critical patterns in the dataset such as:
 
 ---
 
-> ✅ This project helps in identifying early signs of Chronic Kidney Disease using data-driven approaches.
+>  This project helps in identifying early signs of Chronic Kidney Disease using data-driven approaches.
